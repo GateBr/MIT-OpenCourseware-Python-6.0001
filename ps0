@@ -1,0 +1,28 @@
+#ASSIGNMENT: 
+#Write a program that does the following in order:
+#Asks the user to enter a number “x” 
+#Asks the user to enter a number “y” 
+#Prints out number “x”, raised to the power “y”. 
+#Prints out the log (base 2) of “x”.
+
+
+//SOLUTION: 
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Mar 27 08:46:42 2022
+
+@author: brennenfugate
+"""
+import numpy as np 
+
+print("Hello World")
+
+x = int(input("Enter Number x: "))
+y = int(input("Enter Number y: "))
+
+x = 2 
+y = 6
+print("x**y = ", x**y)
+
+print(np.log2(x))
